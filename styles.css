@@ -13,16 +13,19 @@ body
 }
 header
 {
+	width: 100%;
 	height: auto;
 	display: flex;
 	background-color: #444444;
 	padding: 5px;
 	align-items: center;
+	position: fixed;
 
 }
 .top_nav
 {
 	display: inline-block;
+	
 }
 .nav_button
 {
@@ -49,6 +52,7 @@ header
 	background-color: #e084a8;
 	margin: 0px;
     	padding: 15px;
+	padding-top: 65px;
  	border: 0px solid transparent;
 	border-image-source: url("./images/page_break.png");
 	border-image-slice: 0 0 100% 0;
@@ -64,19 +68,26 @@ header
 }
 .block
 {
-	align="vertical-align:middle"
+	background-color: #ae905c;
 	padding: 15px, 20px;
 	border: 30px solid transparent;
  	overflow: hidden;
+	align-content: center;
+	max-width: 1000px;
+	margin: auto;
 }
 .downloads
 {
-	margin: auto;
 	text-align: center;
 }
 .downloads_table
 {
 	width: 50%;
+	padding-top: 65px;
+
+	margin: auto;
+	font-family: MedievalSharp;
+
 
 }
 .table_button
@@ -97,4 +108,8 @@ header
 {
 	background-color: #a46935;
 }
+#license
+{
+padding-top: 65px;
 
+}
