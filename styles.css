@@ -9,7 +9,6 @@ body
 	margin: 0;
 	box-sizing: border-box;
 	background-color: #d0b06e;
-
 }
 header
 {
@@ -20,7 +19,6 @@ header
 	padding: 5px;
 	align-items: center;
 	position: fixed;
-
 }
 .top_nav
 {
@@ -87,8 +85,6 @@ header
 
 	margin: auto;
 	font-family: MedievalSharp;
-
-
 }
 .table_button
 {
@@ -110,6 +106,33 @@ header
 }
 #license
 {
-padding-top: 65px;
-
+	padding-top: 65px;
+}
+#error
+{
+	padding-top: 65px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; 
+}
+.error_message
+{
+	width=100%
+}
+.main_error_message
+{
+	font-family: MedievalSharp;
+	font-size: 50px;
+	margin: 5px;
+}
+.error_subtext
+{
+	font-family: MedievalSharp;
+	font-size: 30px;
+}
+.hopefully_slightly_amusing_subtext
+{
+	font-family: MedievalSharp;
+	font-size: 17px;
 }
